@@ -9,8 +9,7 @@ jobs:
   build:
     runs-on: windows-latest
 steps:
-      - uses: actions/checkout@v2
-      
+- uses: actions/checkout@v2
 - uses: microsoft/powerplatform-actions/pack-solution@v0
         with:
           solution-file: out/Pack PowerApp_Devops_Trial_core.zip
